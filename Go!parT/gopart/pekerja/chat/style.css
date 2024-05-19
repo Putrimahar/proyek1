@@ -1,0 +1,210 @@
+*{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: url("bag.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 0px;
+    margin-bottom: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+    margin-top: -50px;
+}
+.container{
+    width: 525px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+span{
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    margin-top: -285px;
+    justify-content: center;
+    padding: 15px;
+}
+header{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+.input{
+    height: 25px;
+    width: 530px;
+    border: 2px solid rgb(188, 205, 213);
+    outline: none;
+    border-radius: 200px;
+    color: rgb(151, 151, 151);
+    padding: 5px;
+    background: white;
+}
+
+::-webkit-input-placeholder{
+    color: rgb(141, 139, 139);
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 12px;
+    height: 20px;
+    outline: none;
+    background-color: rgb(225, 224, 224);
+    cursor: pointer;
+    transition: .3s;
+    width: 80px;
+    margin-top: 30px;
+    position: absolute;
+    box-shadow: 0px 0px 5px rgb(114, 114, 114);
+}
+.submit:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: all .42s ease;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    margin-top: 12px;
+    margin-left: 155px;
+    font-size: 13px;
+
+}
+label a{
+    color: black;
+    text-decoration: none;
+}
+.forgot {
+    text-align: end;
+    font-size: 12px;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: rgb(124, 122, 122);
+    padding: 5px;
+}
+a:hover, a:active {
+    color: rgb(56, 56, 56);
+}
+.top-header {
+    letter-spacing: 7px;
+}
+.tipe {
+    padding: 0px;
+    font-size: 12px;
+    color: rgb(106, 111, 114);
+}
+.input2 {
+    height: 38px;
+    width: 253px;
+    border: 2px solid rgb(188, 205, 213);
+    outline: none;
+    border-radius: 200px;
+    background: white;
+    padding: 1px;
+    font-size: 12px;
+    color: rgb(106, 111, 114);
+    margin-top: 10px;
+}
+.tipe2 {
+    padding: 0px;
+    font-size: 12px;
+    color: rgb(106, 111, 114);
+    text-indent: 7px;
+    margin-top: 5px;
+    line-height: 25px;
+    word-spacing: 123px;
+}
+.forgotpass {
+    align-items: center;
+    text-align: center;
+}
+.gambar {
+    align-items: center;
+    margin-left: 230px;
+}
+.ikonkiri {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.ikonkanan {
+    margin-left: 1098px;
+    margin-top: -50px;
+}
+.pilihan{
+    border: none;
+    font-size: 20px;
+    height: 430px;
+    outline: none;
+    width: 597px;
+    outline: none;
+    border-radius: 25px;
+    color: rgb(49, 48, 48);
+    padding: 2px;
+    background-color: #95A6AF;
+    margin-top: -60px;
+    box-shadow: 0px 6px 10px rgb(145, 145, 145);
+}
+.garis{
+    border-right: 2px solid rgb(236, 236, 236);
+    height: 550px;
+    margin-bottom: 100px;
+    margin-top: 0px;    
+}
+.garis2{
+    border-right: 2px solid rgb(236, 236, 236);
+    height: 485px;
+    margin-bottom: 100px;
+    margin-top: 0px;    
+}
+.garis3{
+    border-right: 2px solid #92989B;
+    height: 600px;
+    margin-bottom: 100px;
+    margin-top: 0px;    
+}
+.bodychat{
+    border: none;
+    border-radius: 30px;
+    font-size: 12px;
+    height: 390px;
+    outline: none;
+    background-color: #D9D9D9;
+    transition: .3s;
+    width: 810px;
+    margin-top: 30px;
+    position: absolute;  
+}
+.headerchat{
+    border: none;
+    border-radius: 30px;
+    font-size: 12px;
+    height: 70px;
+    outline: none;
+    background-color: #ffffff;
+    transition: .3s;
+    width: 810px;
+    margin-top: 30px;
+    position: absolute;  
+}

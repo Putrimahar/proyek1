@@ -1,0 +1,323 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+
+.setting-pilihan{
+    
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 273px;
+    text-indent: 15px;
+    margin-left: 20px;
+    flex-direction: column;
+    margin-top: 70px;   
+    box-shadow: 2px 2px 8px rgb(148, 148, 148);
+    margin-bottom: 100px;
+}
+
+.h2-title{
+    font-size: 35px;
+    margin-left: 35px;
+
+}
+
+.pilihan{
+    flex-direction: column;
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 45px;
+}
+.h2-article-title{
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 15px;
+    width: 230px;
+    margin-bottom: 7px;
+    background-color: #e0eef4;
+    box-shadow: 2px 2px 4px rgb(131, 130, 130);
+    cursor: pointer;
+    text-decoration: none;
+    color: #585c5e;
+}
+.linksetting{
+    text-decoration: none;
+}
+.h2-article-title:hover{
+    background-color: #585c5e;
+    color: #e0eef4;
+    transition: 0.7s ease;
+    text-decoration: none;
+    width: 220px;
+   
+}
+
+button{
+    background: none;
+}
+.iconhome{
+    height: 32px;
+    margin-left: 100px;
+    margin-bottom: 14px;
+    margin-top: -45px;
+}
+
+.logout{
+    margin-left: 60px;
+    color: #D30000;
+    margin-top: -30px;
+}
+
+.iconlogout{
+    height: 25px;
+    margin-right: 5px;
+    position: absolute;
+    left: 100px;
+}
+.logout h4{
+    color: #D30000;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 30px;
+    
+}
+.logout h4:hover{
+    color: #940101;
+}
+.isi{
+    margin-left: 330px;
+    margin-top: -585px;
+    font-size: 15px;
+    border: 2px solid black;
+    width: 800px;
+    border-radius: 15px;
+    text-indent: 20px;
+    box-shadow: 2px 2px 4px rgb(131, 130, 130);
+}
+  
+.avatar-box {
+    background: var(--bg-gradient-onyx);
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-left: 30px;
+    width: 90px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(125, 125, 125);
+  }
+
+.iconprofile{
+    margin-left: -15px;
+}
+  
+  :root {
+    --bg-gradient-onyx: linear-gradient( /* warna latar profile*/
+      to bottom right, 
+      #717577 97%,
+      #717577 97%
+    );
+    background-color: #bccdd5;
+  }
+
+form{
+    max-width: 700px;
+    text-indent: 5px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+   
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 10px;
+    border: 2px solid #838f94;
+    border-radius: 9px;
+    box-sizing: border-box;
+
+}
+select {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 10px;
+    border: 2px solid #838f94;
+    border-radius: 9px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #a1adb2;
+    color: rgb(44, 44, 44);
+    padding: 10px 12px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 150px;
+    margin-left: 15px;
+    margin-top: 10PX;
+    margin-bottom: 10px;
+}
+input[type="submit"]:hover {
+    background-color: rgb(137, 130, 123);
+    color: #e0eef4;
+    transition: 0.4s ease;
+}
+.bx-bxs-file-doc{
+    margin-left: 20px;
+}
+.bawahjudul{
+    color: #838f94;
+    font-size: 15px;
+    margin-top: -15px;
+}
+.submit2{
+    background-color: #ffff;
+    border-radius: 10px;
+    padding: 3px;
+    border: 2px solid #838f94;
+    cursor: pointer;
+    text-indent: 12px;
+    font-size: 15px;
+    color: #717577;
+
+}
+.submit3{
+    background-color: #ffff;
+    border-radius: 15px;
+    padding: 9px;
+    border: 2px solid #838f94;
+    text-indent: 12px;
+    font-size: 15px;
+    color: #717577;
+    width: 95%;
+    margin-left: 6px;
+    margin-bottom: -40px;
+    
+
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  top: 0px;
+  left: 600px;
+  
+
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2adf3f;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2adf3f;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/*-----------------------------------*\
+  #RESPONSIVE
+\*-----------------------------------*/
+
+/**
+ * responsive larger than 450px screen
+ */
+
+ @media (min-width: 450px) {
+
+    /**
+     * client
+     */
+  
+    .clients-item { min-width: calc(33.33% - 10px); }
+  
+  
+  
+    /**
+     * #PORTFOLIO, BLOG 
+     */
+  
+    .project-img,
+    .blog-banner-box { height: auto; }
+  
+  }
+  
+  
+  
+  
+  
+  /**
+   * responsive larger than 580px screen
+   */
+  
+  @media (min-width: 580px) {
+  
+    /**
+     * CUSTOM PROPERTY
+     */
+  
+    :root {
+  
+      /**
+       * typography
+       */
+  
+      --fs-1: 32px;
+      --fs-2: 24px;
+      --fs-3: 26px;
+      --fs-4: 18px;
+      --fs-6: 15px;
+      --fs-7: 15px;
+      --fs-8: 12px;
+  
+    }
+  }  
+

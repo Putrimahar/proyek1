@@ -1,0 +1,255 @@
+*{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: url("bag.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 0px;
+    margin-bottom: 800px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+    margin-top: -50px;
+}
+.container{
+    width: 525px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+span{
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    margin-top: -285px;
+    justify-content: center;
+    padding: 15px;
+}
+header{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+.input{
+    height: 25px;
+    width: 530px;
+    border: 2px solid rgb(135, 144, 148);
+    outline: none;
+    border-radius: 200px;
+    color: rgb(69, 69, 69);
+    padding: 5px;
+    background: white;
+}
+
+::-webkit-input-placeholder{
+    color: rgb(141, 139, 139);
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 40px;
+    outline: none;
+    background-color: #6096B4;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .3s;
+    width: 80px;
+    position: absolute;
+    box-shadow: 0px 0px 5px rgb(114, 114, 114);
+    top: 280px;
+    left: 1040px;
+}
+.submit:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: all .42s ease;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    margin-top: 12px;
+    margin-left: 155px;
+    font-size: 13px;
+
+}
+label a{
+    color: black;
+    text-decoration: none;
+}
+.forgot {
+    text-align: end;
+    font-size: 12px;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: rgb(124, 122, 122);
+    padding: 5px;
+}
+a:hover, a:active {
+    color: rgb(56, 56, 56);
+}
+.top-header {
+    letter-spacing: 7px;
+}
+.tipe {
+    padding: 0px;
+    font-size: 12px;
+    color: rgb(106, 111, 114);
+}
+.input2 {
+    height: 38px;
+    width: 253px;
+    border: 2px solid rgb(188, 205, 213);
+    outline: none;
+    border-radius: 200px;
+    background: white;
+    padding: 1px;
+    font-size: 12px;
+    color: rgb(106, 111, 114);
+    margin-top: 10px;
+}
+.tipe2 {
+    padding: 0px;
+    font-size: 12px;
+    color: rgb(106, 111, 114);
+    text-indent: 7px;
+    margin-top: 5px;
+    line-height: 25px;
+    word-spacing: 123px;
+}
+.forgotpass {
+    align-items: center;
+    text-align: center;
+}
+.gambar {
+    align-items: center;
+    margin-left: 230px;
+}
+.ikonkiri {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.ikonkanan {
+    margin-left: 1098px;
+    margin-top: -50px;
+}
+.pilihan{
+    border: none;
+    font-size: 20px;
+    height: 430px;
+    outline: none;
+    width: 597px;
+    outline: none;
+    border-radius: 25px;
+    color: rgb(49, 48, 48);
+    padding: 2px;
+    background-color: #95A6AF;
+    margin-top: -60px;
+    box-shadow: 0px 6px 10px rgb(145, 145, 145);
+}
+.garis{
+    border-right: 3px solid #696565;
+    height: 1190px;
+    margin-bottom: 100px;
+    margin-top: 0px;    
+}
+.garis2{
+    border-right: 3px solid #ffffff;
+    height: 1190px;
+    margin-bottom: 100px;
+    margin-top: 0px;     
+}
+.garis3{
+    border-right: 3px solid #696565;
+    height: 200px;
+    margin-bottom: 100px;
+    margin-top: 0px;     
+}
+.garis4{
+    border-right: 3px solid #696565;
+    height: 1100px;
+    margin-bottom: 100px;
+    margin-top: 0px;     
+}
+.bodychat{
+    border: none;
+    border-radius: 30px;
+    font-size: 12px;
+    height: 390px;
+    outline: none;
+    background-color: #D9D9D9;
+    transition: .3s;
+    width: 810px;
+    margin-top: 30px;
+    position: absolute;  
+}
+.headerchat{
+    border: none;
+    border-radius: 30px;
+    font-size: 12px;
+    height: 70px;
+    outline: none;
+    background-color: #ffffff;
+    transition: .3s;
+    width: 810px;
+    margin-top: 30px;
+    position: absolute;  
+}
+.box1{
+    background: #ffffff;
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    top: 340px;
+    left: 500px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px rgb(128, 128, 128);
+}
+.box2{
+    background: #ffffff;
+    height: 70px;
+    width: 1220px;
+    position: absolute;
+    top: 600px;
+    left: 0px;
+}
+.box3{
+    background: #ffffff;
+    height: 180px;
+    width: 400px;
+    position: absolute;
+    box-shadow: 2px 2px 4px rgb(70, 70, 70);
+    border-radius: 30px;
+    top: 880px;
+    left: 100px;
+}
+.skill{
+    background: #ffffff;
+    height: 40px;
+    width: 150px;
+    border-radius: 80px;
+    box-shadow: 0px 0px 6px rgb(132, 132, 132);
+    position: absolute;
+    top: 1630px;
+    left: 60px;
+}

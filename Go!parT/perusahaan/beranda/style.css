@@ -1,0 +1,169 @@
+*{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: url("bag.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: -7px;
+    margin-bottom: 780px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+    margin-top: -50px;
+}
+.container{
+    width: 525px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+span{
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+header{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -1000px;
+}
+.input{
+    height: 30px;
+    width: 390px;
+    border: 2px solid rgb(181, 182, 183);
+    outline: none;
+    border-radius: 200px;
+    color: rgb(49, 48, 48);
+    padding: 2px;
+    background: white;
+    margin-left: -720px;
+    margin-top: -280px;
+}
+i{
+    position: relative;
+    top: -90px;
+    left: 17px;
+    color: black;
+}
+::-webkit-input-placeholder{
+    color: rgb(169, 165, 165);
+    text-indent: 7px;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    height: 40px;
+    outline: none;
+    background-color: rgb(188, 205, 213);
+    cursor: pointer;
+    transition: .3s;
+    width: 230px;
+    margin-top: 30px;
+}
+.submit.hover{
+    box-shadow: 50;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    margin-top: 12px;
+    margin-left: 155px;
+    font-size: 13px;
+
+}
+label a{
+    color: black;
+    text-decoration: none;
+}
+.forgot {
+    text-align: end;
+    font-size: 12px;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: rgb(124, 122, 122);
+    padding: 5px;
+}
+a:hover, a:active {
+    color: rgb(56, 56, 56);
+}
+.top-header {
+    letter-spacing: 7px;
+}
+.tipe {
+    padding: 0px;
+    font-size: 12px;
+    color: rgb(106, 111, 114);
+}
+.tipe2 {
+    padding: 0px;
+    font-size: 12px;
+    color: rgb(106, 111, 114);
+    text-indent: 7px;
+    margin-top: 5px;
+    line-height: 25px;
+    word-spacing: 123px;
+}
+.forgotpass {
+    align-items: center;
+    text-align: center;
+}
+.gambar2 {
+    align-items: center;
+    margin-left: 230px;
+}
+.ikonkiri {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.ikonkanan {
+    margin-left: 1050px;
+    margin-top: -55px;
+}
+.filter {
+    height: 20px;
+    width: 100px;
+    border: 2px solid rgb(181, 182, 183);
+    outline: none;
+    border-radius: 200px;
+    color: rgb(49, 48, 48);
+    padding: 2px;
+    background: white;
+    margin-left: -1015px;
+    margin-top: 20px;
+
+}
+.pilihan {
+    border: none;
+    font-size: 20px;
+    height: 300px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+    width: 230px;
+    outline: none;
+    border-radius: 50px;
+    color: rgb(49, 48, 48);
+    padding: 2px;
+    margin-top: 55px;
+    background-color: #BCCDD5;
+}
